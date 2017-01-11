@@ -15,6 +15,7 @@ public:
 private:
 
 	uint32_t GCD();
+	uint32_t ExtendedEuclidean();
 	uint32_t GetPrime();
 	uint32_t GetRelativePrime();
 	uint32_t ModInverse();

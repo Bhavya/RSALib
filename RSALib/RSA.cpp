@@ -36,6 +36,11 @@ uint32_t RSA::GCD()
 	return uint32_t();
 }
 
+uint32_t RSA::ExtendedEuclidean()
+{
+	return uint32_t();
+}
+
 uint32_t RSA::GetPrime()
 {
 	return uint32_t();
