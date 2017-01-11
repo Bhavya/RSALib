@@ -7,8 +7,8 @@ using namespace std;
 int main(int argc, char* argv[])
 {
 	//Example here.
-	RSA entityA;
-	RSA entityB;
+	RSA Alice;
+	RSA Bob;
 
 	cout << "Hello World" << endl;
 

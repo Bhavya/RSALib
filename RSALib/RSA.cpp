@@ -44,7 +44,15 @@ uint32_t RSA::ExtendedEuclidean()
 
 uint32_t RSA::GetPrime()
 {
-	return uint32_t();
+	uint32_t num;
+
+	while (1) {
+		num = rand();
+		if (IsPrime(num))
+			break;
+	}
+
+	return num;
 }
 
 uint32_t RSA::GetRelativePrime(uint32_t basenum)
